@@ -3,6 +3,8 @@ from Table import *
 from Player import Player
 from Computer import Computer
 
+from main import ask_taken
+
 def play_with_computar():
     deck = Deck()
     computer = Computer("Computer")
