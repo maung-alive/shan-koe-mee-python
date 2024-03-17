@@ -6,12 +6,8 @@ class Player:
         self.power = False
 
     def __check_null(self, total):
-        if total > 10:
-            total = total-10
-
-        if total > 10:
-            self.__check_null(total)
-
+        while total > 10:
+            total -= 10
         return total
 
     def __check_power(self):
